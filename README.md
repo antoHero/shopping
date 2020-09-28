@@ -1,6 +1,5 @@
-# online-shopping-webvsite-in-php
-
-Shopping Cart System is the Simple shopping Solution. It’s a full-featured website and shopping cart system that bends over backwards to give you the flexibility you need to runyour online store.
+# kasu vendors
+Kasu vendors is a Simple shopping Solution. It’s a full-featured website and shopping cart system that bends over backwards to give you the flexibility you need to run your online store.
 
 The basic concept of the application is to allow the customer to shop virtually using the Internet and allow customers to buy the items and articles of their desire from the store.
 
@@ -13,19 +12,10 @@ completed electronically and interactively in real- time.
 The development of this new system contains the following activities, which try to develop on- line
 application by keeping the entire process in the view of database integration approach. User gets its eamil id and password to access their account.
 
-Administrator of Shopping Cart System has multiple features such as Add, Delete, Update shopping Items.
+The Vendor has multiple features such as Add, Delete, Update shopping Items.
 
 Features of shopping cart
 Secure registration and profile managementfacilities for Customers.
-Browsing through the e-Mall to see the itemsthat are there in each category of products likeApparel, Kitchen accessories,
-Bath accessories, Food items etc.
-Creating a Shopping cart so that customer canShop N number of items and checkout finally withthe entire shopping cart
-Customers should be able to mail the Shopabout the items they would like to see in theShop
-Secured mechanism for checking out from theShop( Credit card verification mechanism).Updates to customers about the Recent Items inthe Shop.
-Uploading Most Purchased Items in eachcategory of products in the Shop like Apparel,Kitchen accessories, Bath accessories,
-Food items etc.
-Brief overview of the technology
- 
 
 HTML: HTML is used to create and save webdocument. E.g. Notepad/Notepad++
 CSS : (Cascading Style Sheets) Create attractiveLayout
@@ -47,14 +37,17 @@ Download zip file and Unzip file on your local server.
 Put this file inside “c:/wamp/www/” .
 Database Configuration:
 Open phpmyadmin
-Create Database named “shop”.
-Import database shop.sql.
+Create Database named "store".
+Import database store.sql.
 Open Your browser put inside URL:
-“http://localhost/store/”
-To Login as admin put inside URL:”http://localhost/store”
-user login details:
-Login Id: yugeshverma@gmail.com
+“http://localhost/shopping/”
+To Login as admin, log in then navigate to URL:”http://localhost/shopping/admin"
+To Login as vendor, log in then navigate to URL:”http://localhost/shopping/vendor"
+
+Vendor login details:
+Login Id: vendor@gmail.com
 Password:123456
 
-
-visit- https://projkectworlds.in
+Admin login details:
+Login Id: admin@kasuvendors.com
+Password:123456
